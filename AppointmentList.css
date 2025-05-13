@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    flex: 0 0 250px;
+    background-color: #f4f4f4;
+    height: 100vh;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 250px;
+    background-color: #fff;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.MuiTableContainer-root {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.MuiTableHead-root {
+    background-color: #007bff;
+}
+
+.MuiTableCell-head {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.MuiTableCell-body {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+}
+
+.MuiButton-containedPrimary {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-transform: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.MuiButton-containedSecondary {
+    background-color: #dc3545;
+    color: #fff;
+    font-weight: bold;
+    text-transform: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}

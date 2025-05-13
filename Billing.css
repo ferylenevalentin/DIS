@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    flex: 0 0 250px;
+    background-color: #f4f4f4;
+    height: 100vh;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 250px;
+    background-color: #fff;
+}
+
+.page-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.billing-form {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.discounts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}

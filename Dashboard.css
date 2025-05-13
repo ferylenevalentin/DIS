@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    flex: 0 0 250px; /* Sidebar width */
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 250px; /* Matches sidebar width */
+}
+
+.dashboard-title {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.dashboard-description {
+    font-size: 18px;
+    color: #555;
+}

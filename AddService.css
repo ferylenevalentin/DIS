@@ -1,0 +1,49 @@
+/* Container for the Add Service page */
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Sidebar styling */
+.sidebar {
+    flex: 0 0 250px;
+    background-color: #f4f4f4;
+    height: 100vh;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Content area styling */
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 250px; /* Matches sidebar width */
+    background-color: #fff;
+}
+
+/* Page title styling */
+.page-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Form input fields */
+.MuiTextField-root {
+    margin-bottom: 20px;
+}
+
+/* Add Service button styling */
+.MuiButton-containedPrimary {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    text-transform: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.MuiButton-containedPrimary:hover {
+    background-color: #0056b3;
+}

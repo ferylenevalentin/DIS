@@ -1,0 +1,54 @@
+/* Sidebar container */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Fix the sidebar to the left */
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Sidebar title */
+.sidebar h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    width: 100%;
+}
+
+/* Sidebar list */
+.sidebar ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    width: 100%;
+}
+
+/* Sidebar list items */
+.sidebar ul li {
+    margin: 15px 0;
+    width: 100%;
+}
+
+/* Sidebar links */
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for links */
+.sidebar ul li a:hover {
+    background-color: #007bff;
+    color: #fff;
+}

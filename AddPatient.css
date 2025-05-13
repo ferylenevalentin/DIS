@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    flex: 0 0 250px; /* Sidebar width */
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 250px; /* Matches sidebar width */
+}
+
+.page-title {
+    margin-bottom: 20px;
+}
+
+.patient-table {
+    margin-top: 20px;
+}

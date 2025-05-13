@@ -1,0 +1,106 @@
+/* Container for the Service List page */
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Sidebar styling */
+.sidebar {
+    flex: 0 0 250px;
+    background-color: #f4f4f4;
+    height: 100vh;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Content area styling */
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 250px; /* Matches sidebar width */
+    background-color: #fff;
+}
+
+/* Page title styling */
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Table container styling */
+.MuiTableContainer-root {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table header styling */
+.MuiTableHead-root {
+    background-color: #007bff;
+}
+
+.MuiTableCell-head {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Table body styling */
+.MuiTableCell-body {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Button styling */
+.MuiButton-containedPrimary {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-transform: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.MuiButton-containedPrimary:hover {
+    background-color: #0056b3;
+}
+
+.MuiButton-containedSecondary {
+    background-color: #dc3545;
+    color: #fff;
+    font-weight: bold;
+    text-transform: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.MuiButton-containedSecondary:hover {
+    background-color: #a71d2a;
+}
+
+/* Dialog styling */
+.MuiDialog-paper {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.MuiDialogTitle-root {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.MuiTextField-root {
+    margin-bottom: 16px;
+}
+
+.MuiButton-textSecondary {
+    color: #6c757d;
+}
+
+.MuiButton-textSecondary:hover {
+    background-color: rgba(108, 117, 125, 0.1);
+}
